@@ -13,7 +13,7 @@ import (
 	"path"
 	"strings"
 
-	"github.com/kr/mitm"
+	"github.com/majiru/mitm"
 )
 
 var (
