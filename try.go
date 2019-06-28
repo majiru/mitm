@@ -30,6 +30,7 @@ func main() {
 		CA: &ca,
 		TLSServerConfig: &tls.Config{
 			MinVersion: tls.VersionTLS12,
+			InsecureSkipVerify: true,
 			//CipherSuites: []uint16{tls.TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA},
 		},
 		Wrap: cloudToButt,
